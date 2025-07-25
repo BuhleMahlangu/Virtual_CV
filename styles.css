@@ -25,7 +25,7 @@ nav {
     display: flex;
     flex-wrap: wrap; 
     justify-content: center; 
-    gap: 15px; /* Space between links */
+    gap: 15px; 
 }
 
 nav a {
