@@ -136,9 +136,9 @@ html {
 footer {
     text-align: center;
     padding: 20px;
-    background: #007bff; /* Footer background */
-    color: white; /* Text color */
-    margin-top: 20px; /* Space above footer */
+    background: #007bff; 
+    color: white; 
+    margin-top: 20px; 
 }
 
 img {
