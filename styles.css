@@ -123,12 +123,12 @@ html {
     }
 
     nav {
-        flex-direction: row; /* Stack navigation links vertically */
-        align-items: center; /* Center align links */
+        flex-direction: row; 
+        align-items: center; 
     }
 
     nav a {
-        margin: 5px 0; /* Space between links */
+        margin: 5px 0; 
         padding: 10px;
     }
 }
