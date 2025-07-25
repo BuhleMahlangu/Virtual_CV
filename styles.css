@@ -80,9 +80,9 @@ h2 {
 
 p {
     margin: 0;
-    font-size: 1em; /* Font size for paragraph */
-    color: #666; /* Slightly lighter text color */
-    line-height: 1.5; /* Improved line spacing */
+    font-size: 1em; 
+    color: #666; 
+    line-height: 1.5; 
 }
 
 ul {
