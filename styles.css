@@ -142,10 +142,10 @@ footer {
 }
 
 img {
-    max-width: 100%; /* Responsive images */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 p {
-    margin: 10px 0; /* Space between paragraphs */
+    margin: 10px 0; 
 }
