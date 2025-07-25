@@ -72,11 +72,10 @@ section {
 }
 
 .project {
-    margin-bottom: 15px; /* Space between projects */
-}
+    margin-bottom: 15px; 
 
 h2 {
-    margin: 10px 0; /* Margin for spacing */
+    margin: 10px 0; 
 }
 
 p {
