@@ -32,7 +32,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
-    border-radius: 5px; /* Rounded buttons */
+    border-radius: 5px; 
     transition: background 0.3s;
 }
 
