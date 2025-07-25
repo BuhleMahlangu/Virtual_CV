@@ -64,11 +64,11 @@ section {
 }
 
 #about img {
-    max-width: 150px; /* Set maximum width */
-    width: 100%; /* Responsive width */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular image */
-    margin-bottom: 15px; /* Space between image and text */
+    max-width: 150px; 
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-bottom: 15px; 
 }
 
 .project {
