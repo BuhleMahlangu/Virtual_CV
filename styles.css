@@ -24,7 +24,7 @@ header {
 nav {
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center; /* Center links */
+    justify-content: center; 
     gap: 15px; /* Space between links */
 }
 
