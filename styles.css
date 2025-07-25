@@ -86,8 +86,8 @@ p {
 }
 
 ul {
-    list-style: none; /* Remove bullet points */
-    padding-left: 0; /* Remove padding */
+    list-style: none; 
+    padding-left: 0; 
 }
 
 .button {
