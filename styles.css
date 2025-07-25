@@ -1,1 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Dark text color */
+    padding: 20px; /* Global padding */
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    padding: 20px;
+    background: #007bff; /* Header background */
+    color: white; /* Text color */
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of links */
+    justify-content: center; /* Center links */
+    gap: 15px; /* Space between links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded buttons */
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Hover effect */
+}
+
+main {
+    display: flex;
+    flex-direction: row;  
+    gap: 20px; /* Space between sections */
+    flex-wrap: wrap;
+}
+
+section {
+    background: white; /* Section background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex: 1 1 calc(30% - 20px);
+}
+
+#about {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    margin: 20px 0;
+}
+
+#about img {
+    max-width: 150px; /* Set maximum width */
+    width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 15px; /* Space between image and text */
+}
+
+.project {
+    margin-bottom: 15px; /* Space between projects */
+}
+
+h2 {
+    margin: 10px 0; /* Margin for spacing */
+}
+
+p {
+    margin: 0;
+    font-size: 1em; /* Font size for paragraph */
+    color: #666; /* Slightly lighter text color */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+ul {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0; /* Remove padding */
+}
+
+.button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+    display: inline-block; /* Align buttons inline */
+    margin: 5px; /* Space between buttons */
+}
+
+.button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    section {
+        flex: 1 1 calc(45% - 20px); /* Two columns on medium screens */
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        flex: 1 1 100%; /* Stack sections on small screens */
+    }
+
+    nav {
+        flex-direction: row; /* Stack navigation links vertically */
+        align-items: center; /* Center align links */
+    }
+
+    nav a {
+        margin: 5px 0; /* Space between links */
+        padding: 10px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff; /* Footer background */
+    color: white; /* Text color */
+    margin-top: 20px; /* Space above footer */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+p {
+    margin: 10px 0; /* Space between paragraphs */
+}
